@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SEMS — Smart Energy Management System</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Chart.js CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     LOGIN PAGE
+════════════════════════════════════════════════════════════════════════════ -->
+<div id="loginPage" class="login-page">
+  <div class="login-card">
+    <div style="text-align:center; margin-bottom:20px;">
+      <div style="font-size:2.5rem;">⚡</div>
+      <h2 style="margin-top:8px;">SEMS Portal</h2>
+      <p>Smart Energy Management System<br>Trinity Academy of Engineering, Pune</p>
+    </div>
+
+    <div id="loginError" class="alert alert-error" style="display:none;"></div>
+
+    <div class="form-group">
+      <label>Username</label>
+      <input type="text" id="loginUsername" placeholder="Enter username" autocomplete="off">
+    </div>
+    <div class="form-group" style="margin-top:14px;">
+      <label>Password</label>
+      <input type="password" id="loginPassword" placeholder="Enter password">
+    </div>
+
+    <button class="btn btn-primary" style="width:100%; margin-top:22px; justify-content:center;" onclick="login()">
+      🔐 Sign In
+    </button>
+
+    <p style="margin-top:18px; font-size:0.78rem; color:#999; text-align:center;">
+      Demo credentials: <strong>admin</strong> / <strong>admin123</strong><br>
+      Student: <strong>prachi</strong> / <strong>sems2026</strong>
+    </p>
+  </div>
+</div>
+
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     MAIN APP (hidden until login)
+════════════════════════════════════════════════════════════════════════════ -->
+<div id="dashboardApp" style="display:none; min-height:100vh;">
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="sidebar-logo">
+      <h2>⚡ <span>SEMS</span></h2>
+      <p>Smart Energy Management</p>
+    </div>
+
+    <nav class="nav-section">
+      <div class="nav-section-title">Main</div>
+      <div class="nav-item active" data-page="dashboard" onclick="navigateTo('dashboard')">
+        <span class="icon">📊</span><span>Dashboard</span>
+      </div>
+      <div class="nav-item" data-page="predict" onclick="navigateTo('predict')">
+        <span class="icon">⚡</span><span>Predict Energy</span>
+      </div>
+      <div class="nav-item" data-page="analytics" onclick="navigateTo('analytics')">
+        <span class="icon">📈</span><span>Analytics</span>
+      </div>
+      <div class="nav-item" data-page="buildings" onclick="navigateTo('buildings')">
+        <span class="icon">🏢</span><span>Buildings</span>
+      </div>
+    </nav>
+
+    <nav class="nav-section">
+      <div class="nav-section-title">Settings</div>
+      <div class="nav-item" id="adminNav" data-page="admin" onclick="navigateTo('admin')" style="display:none;">
+        <span class="icon">🔧</span><span>Admin Panel</span>
+      </div>
+      <div class="nav-item" onclick="logout()">
+        <span class="icon">🚪</span><span>Logout</span>
+      </div>
+    </nav>
+
+    <div class="sidebar-footer">
+      <div id="userRole" style="font-weight:600; color:rgba(255,255,255,0.6);">Role</div>
+      <div id="userName" style="margin-top:2px;">User</div>
+    </div>
+  </aside>
+
+  <!-- Main Area -->
+  <div class="main">
+    <!-- Topbar -->
+    <header class="topbar">
+      <h1 id="topbarTitle">Dashboard Overview</h1>
+      <div class="topbar-right">
+        <span style="font-size:0.82rem; color:#666;">KJEI's Trinity Academy of Engineering</span>
+        <div class="user-badge">
+          <div class="avatar" id="userAvatar">A</div>
+          <span id="topbarUserName">Admin</span>
+        </div>
+      </div>
+    </header>
+
+    <div class="content">
+
+      <!-- ─────────────────────────────────────────────────────────────────
+           PAGE: DASHBOARD
+      ─────────────────────────────────────────────────────────────────── -->
+      <div id="page-dashboard" class="page active">
+        <p class="page-desc">Real-time overview of energy consumption across all campus buildings.</p>
+
+        <!-- Stat cards -->
+        <div class="stat-grid">
+          <div class="stat-card">
+            <div class="stat-icon">⚡</div>
+            <div>
+              <div class="stat-val" id="stat-total">—</div>
+              <div class="stat-lbl">Total Energy (all time)</div>
+            </div>
+          </div>
+          <div class="stat-card green">
+            <div class="stat-icon">📅</div>
+            <div>
+              <div class="stat-val" id="stat-monthly">—</div>
+              <div class="stat-lbl">Avg Monthly Usage</div>
+            </div>
+          </div>
+          <div class="stat-card yellow">
+            <div class="stat-icon">🏢</div>
+            <div>
+              <div class="stat-val" id="stat-buildings">—</div>
+              <div class="stat-lbl">Buildings Monitored</div>
+            </div>
+          </div>
+          <div class="stat-card red">
+            <div class="stat-icon">🔴</div>
+            <div>
+              <div class="stat-val" id="stat-high">—</div>
+              <div class="stat-lbl">High-Usage Days</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Charts row -->
+        <div class="charts-grid">
+          <div class="chart-card">
+            <h3>📈 Monthly Energy Trend</h3>
+            <div style="height:240px;"><canvas id="chartDashMonthly"></canvas></div>
+          </div>
+          <div class="chart-card">
+            <h3>🏢 Energy by Building</h3>
+            <div style="height:240px;"><canvas id="chartDashBuilding"></canvas></div>
+          </div>
+        </div>
+
+        <!-- Top 5 table -->
+        <div class="card">
+          <h3>🔥 Top 5 High-Consumption Events</h3>
+          <div style="overflow-x:auto; margin-top:14px;">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Date</th><th>Building</th>
+                  <th>Energy (kWh)</th><th>Usage Level</th>
+                </tr>
+              </thead>
+              <tbody id="top5Body"><tr><td colspan="4">Loading...</td></tr></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- ─────────────────────────────────────────────────────────────────
+           PAGE: PREDICT
+      ─────────────────────────────────────────────────────────────────── -->
+      <div id="page-predict" class="page">
+        <h2 class="section-title">⚡ Energy Consumption Predictor</h2>
+        <p class="page-desc">
+          Enter building details to predict energy consumption using our
+          Random Forest ML model (R² = 0.81).
+        </p>
+
+        <div class="predict-wrap">
+          <div class="card">
+            <div class="form-grid">
+              <div class="form-group">
+                <label>🏢 Building Name</label>
+                <select id="predBuilding">
+                  <option>Computer Lab</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>📊 Usage Level</label>
+                <select id="predUsage">
+                  <option>High</option><option>Medium</option><option>Low</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>📅 Month</label>
+                <select id="predMonth">
+                  <option value="1">January</option><option value="2">February</option>
+                  <option value="3">March</option><option value="4">April</option>
+                  <option value="5">May</option><option value="6">June</option>
+                  <option value="7">July</option><option value="8">August</option>
+                  <option value="9">September</option><option value="10">October</option>
+                  <option value="11">November</option><option value="12">December</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>📆 Day of Week</label>
+                <select id="predDay">
+                  <option value="0">Monday</option><option value="1">Tuesday</option>
+                  <option value="2">Wednesday</option><option value="3">Thursday</option>
+                  <option value="4">Friday</option><option value="5">Saturday</option>
+                  <option value="6">Sunday</option>
+                </select>
+              </div>
+            </div>
+
+            <button class="btn btn-primary" id="predictBtn" onclick="runPrediction()" style="margin-top:20px;">
+              ⚡ Predict Energy
+            </button>
+          </div>
+
+          <!-- Result Box (shown after prediction) -->
+          <div id="resultBox" class="result-box">
+            <div style="margin-bottom:8px; font-size:0.85rem; color:#666;">
+              Predicted for: <strong id="resultBuilding">—</strong>
+              in <strong id="resultMonth">—</strong>
+              (Usage: <strong id="resultUsage">—</strong>)
+            </div>
+            <div class="result-value" id="resultValue">—</div>
+            <div class="result-unit">kWh (kilowatt-hours)</div>
+
+            <div class="compare-row">
+              <div class="compare-item">
+                <div class="val" id="resultRF" style="color:#1a73e8;">—</div>
+                <div class="lbl">🌲 Random Forest</div>
+              </div>
+              <div class="compare-item">
+                <div class="val" id="resultLR" style="color:#9c27b0;">—</div>
+                <div class="lbl">📐 Linear Regression</div>
+              </div>
+            </div>
+
+            <div class="suggestions" id="resultSuggestions"></div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- ─────────────────────────────────────────────────────────────────
+           PAGE: ANALYTICS
+      ─────────────────────────────────────────────────────────────────── -->
+      <div id="page-analytics" class="page">
+        <h2 class="section-title">📈 Energy Analytics</h2>
+        <p class="page-desc">Visual analysis of energy patterns across buildings, months, and usage levels.</p>
+
+        <div class="charts-grid">
+          <div class="chart-card">
+            <h3>📅 Monthly Average Consumption</h3>
+            <div style="height:260px;"><canvas id="chartMonthly"></canvas></div>
+          </div>
+          <div class="chart-card">
+            <h3>📊 Usage Level Distribution</h3>
+            <div style="height:260px;"><canvas id="chartUsage"></canvas></div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>🏢 Building-wise Total Consumption</h3>
+          <div style="height:320px; margin-top:16px;"><canvas id="chartBuilding"></canvas></div>
+        </div>
+
+        <!-- ML Model Performance -->
+        <div class="card" style="margin-top:20px;">
+          <h3>🤖 ML Model Performance Comparison</h3>
+          <div style="overflow-x:auto; margin-top:14px;">
+            <table class="data-table">
+              <thead>
+                <tr><th>Algorithm</th><th>R² Score</th><th>MAE (kWh)</th><th>Complexity</th><th>Selected</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Random Forest Regressor</strong></td>
+                  <td><strong>0.81</strong></td><td><strong>41.77</strong></td>
+                  <td>Medium</td>
+                  <td><span class="badge badge-low">✅ Best Model</span></td>
+                </tr>
+                <tr>
+                  <td>Linear Regression</td>
+                  <td>0.50</td><td>64.96</td>
+                  <td>Low</td>
+                  <td><span class="badge badge-medium">Baseline</span></td>
+                </tr>
+                <tr>
+                  <td>LSTM (Deep Learning)</td>
+                  <td>~0.90+</td><td>~20</td>
+                  <td>Very High</td>
+                  <td><span class="badge badge-high">Future Work</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- ─────────────────────────────────────────────────────────────────
+           PAGE: BUILDINGS
+      ─────────────────────────────────────────────────────────────────── -->
+      <div id="page-buildings" class="page">
+        <h2 class="section-title">🏢 Buildings Energy Report</h2>
+        <p class="page-desc">Statistics for each monitored building in the institution.</p>
+
+        <div class="card">
+          <div style="overflow-x:auto;">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>#</th><th>Building</th><th>Avg kWh/day</th>
+                  <th>Max kWh</th><th>Min kWh</th>
+                  <th>Total kWh</th><th>Efficiency</th>
+                </tr>
+              </thead>
+              <tbody id="buildingsBody"><tr><td colspan="7">Loading...</td></tr></tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- IoT Simulation Note -->
+        <div class="card" style="margin-top:20px; background:linear-gradient(135deg,#e8f5e9,#f0f7ff);">
+          <h3>📡 IoT Integration Architecture</h3>
+          <p style="font-size:0.88rem; color:#555; margin-top:10px; line-height:1.7;">
+            In a real-world deployment, smart meters and IoT sensors would stream data
+            continuously using <strong>MQTT protocol</strong> (lightweight, efficient for IoT)
+            and <strong>Zigbee (IEEE 802.15.4)</strong> for low-power wireless communication.
+            The cloud platform would store readings every 15 minutes, and the ML model
+            would generate predictions for the next 24 hours automatically.
+          </p>
+          <div style="display:flex; gap:12px; margin-top:16px; flex-wrap:wrap;">
+            <div style="background:#fff; border-radius:8px; padding:12px 18px; border:1px solid #ddd; font-size:0.82rem;">
+              📡 Smart Meters → MQTT Broker → Cloud DB → ML Model → Dashboard
+            </div>
+            <div style="background:#fff; border-radius:8px; padding:12px 18px; border:1px solid #ddd; font-size:0.82rem;">
+              🔋 Potential savings: <strong>15–30%</strong> energy reduction
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- ─────────────────────────────────────────────────────────────────
+           PAGE: ADMIN
+      ─────────────────────────────────────────────────────────────────── -->
+      <div id="page-admin" class="page">
+        <h2 class="section-title">🔧 Admin Panel</h2>
+        <p class="page-desc">System management and configuration. Admin access only.</p>
+
+        <div class="stat-grid">
+          <div class="stat-card">
+            <div class="stat-icon">👥</div>
+            <div><div class="stat-val">3</div><div class="stat-lbl">Registered Users</div></div>
+          </div>
+          <div class="stat-card green">
+            <div class="stat-icon">🗄️</div>
+            <div><div class="stat-val">5,848</div><div class="stat-lbl">Dataset Records</div></div>
+          </div>
+          <div class="stat-card yellow">
+            <div class="stat-icon">🤖</div>
+            <div><div class="stat-val">0.81</div><div class="stat-lbl">Model R² Score</div></div>
+          </div>
+          <div class="stat-card red">
+            <div class="stat-icon">📡</div>
+            <div><div class="stat-val">Online</div><div class="stat-lbl">API Status</div></div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>System Information</h3>
+          <table class="data-table" style="margin-top:14px;">
+            <tbody>
+              <tr><td><strong>Project</strong></td><td>Smart Energy Management System (SEMS)</td></tr>
+              <tr><td><strong>Author</strong></td><td>Prachi Rajesh Pimpalkar</td></tr>
+              <tr><td><strong>Institution</strong></td><td>KJEI's Trinity Academy of Engineering, Pune</td></tr>
+              <tr><td><strong>Conference</strong></td><td>ImCReTE 2026, 11 April 2026</td></tr>
+              <tr><td><strong>ML Model</strong></td><td>Random Forest Regressor (100 trees, max_depth=10)</td></tr>
+              <tr><td><strong>Backend</strong></td><td>Python 3 + Flask + Flask-CORS</td></tr>
+              <tr><td><strong>Frontend</strong></td><td>HTML5 + CSS3 + JavaScript + Chart.js</td></tr>
+              <tr><td><strong>Dataset</strong></td><td>5,848 synthetic records | 8 buildings | 2 years</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </div><!-- /content -->
+  </div><!-- /main -->
+</div><!-- /dashboardApp -->
+
+<script src="js/app.js"></script>
+</body>
+</html>

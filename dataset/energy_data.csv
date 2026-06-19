@@ -1,0 +1,1001 @@
+Date,Building_Name,Energy_Consumption_kWh,Usage_Level,Day_of_Week,Month
+2023-01-01,Admin Block,69.98,Low,6,1
+2023-01-03,Admin Block,187.85,High,1,1
+2023-01-04,Hostel Block,252.82,High,2,1
+2023-01-04,Computer Lab,336.93,High,2,1
+2023-01-04,Library,161.33,High,2,1
+2023-01-05,Science Block,271.68,High,3,1
+2023-01-05,Hostel Block,250.09,High,3,1
+2023-01-05,Computer Lab,289.54,High,3,1
+2023-01-06,Computer Lab,256.5,Medium,4,1
+2023-01-07,Admin Block,68.53,Low,5,1
+2023-01-07,Admin Block,47.79,Low,5,1
+2023-01-08,Science Block,161.02,Low,6,1
+2023-01-08,Admin Block,74.73,Low,6,1
+2023-01-08,Canteen,122.09,Low,6,1
+2023-01-09,Admin Block,152.05,Medium,0,1
+2023-01-09,Main Block,211.57,Medium,0,1
+2023-01-11,Canteen,141.85,High,2,1
+2023-01-13,Hostel Block,128.12,Medium,4,1
+2023-01-14,Library,30.0,Low,5,1
+2023-01-15,Computer Lab,96.9,Low,6,1
+2023-01-16,Main Block,282.96,Medium,0,1
+2023-01-16,Hostel Block,217.18,Medium,0,1
+2023-01-17,Main Block,186.9,High,1,1
+2023-01-17,Canteen,143.84,High,1,1
+2023-01-17,Hostel Block,167.99,High,1,1
+2023-01-19,Library,141.44,High,3,1
+2023-01-19,Computer Lab,263.44,High,3,1
+2023-01-20,Admin Block,191.43,Medium,4,1
+2023-01-20,Hostel Block,125.22,Medium,4,1
+2023-01-21,Canteen,110.6,Low,5,1
+2023-01-21,Computer Lab,146.85,Low,5,1
+2023-01-22,Canteen,121.38,Low,6,1
+2023-01-22,Admin Block,72.78,Low,6,1
+2023-01-22,Sports Complex,30.0,Low,6,1
+2023-01-22,Hostel Block,109.26,Low,6,1
+2023-01-23,Sports Complex,88.42,Medium,0,1
+2023-01-23,Sports Complex,78.75,Medium,0,1
+2023-01-24,Main Block,186.97,High,1,1
+2023-01-24,Canteen,233.73,High,1,1
+2023-01-25,Canteen,146.86,High,2,1
+2023-01-25,Science Block,258.88,High,2,1
+2023-01-25,Computer Lab,214.7,High,2,1
+2023-01-25,Main Block,178.02,High,2,1
+2023-01-26,Computer Lab,268.99,High,3,1
+2023-01-27,Admin Block,171.06,Medium,4,1
+2023-01-27,Computer Lab,262.82,Medium,4,1
+2023-01-27,Canteen,125.68,Medium,4,1
+2023-01-27,Hostel Block,201.21,Medium,4,1
+2023-01-28,Computer Lab,104.98,Low,5,1
+2023-01-28,Admin Block,124.0,Low,5,1
+2023-01-29,Computer Lab,155.53,Low,6,1
+2023-01-29,Science Block,151.69,Low,6,1
+2023-01-29,Main Block,137.94,Low,6,1
+2023-01-29,Library,90.18,Low,6,1
+2023-01-30,Main Block,207.34,Medium,0,1
+2023-01-30,Computer Lab,281.77,Medium,0,1
+2023-01-31,Sports Complex,111.98,High,1,1
+2023-01-31,Library,130.23,High,1,1
+2023-01-31,Computer Lab,324.89,High,1,1
+2023-01-31,Science Block,196.43,High,1,1
+2023-01-31,Canteen,205.3,High,1,1
+2023-01-31,Computer Lab,391.77,High,1,1
+2023-02-01,Library,131.05,High,2,2
+2023-02-02,Hostel Block,117.38,High,3,2
+2023-02-03,Library,98.76,Medium,4,2
+2023-02-04,Computer Lab,174.83,Low,5,2
+2023-02-04,Hostel Block,89.86,Low,5,2
+2023-02-04,Science Block,150.0,Low,5,2
+2023-02-05,Main Block,118.87,Low,6,2
+2023-02-05,Admin Block,103.93,Low,6,2
+2023-02-05,Canteen,88.76,Low,6,2
+2023-02-05,Computer Lab,155.39,Low,6,2
+2023-02-06,Main Block,224.98,Medium,0,2
+2023-02-07,Computer Lab,269.58,High,1,2
+2023-02-07,Main Block,208.21,High,1,2
+2023-02-07,Main Block,186.76,High,1,2
+2023-02-07,Main Block,249.51,High,1,2
+2023-02-07,Hostel Block,127.84,High,1,2
+2023-02-07,Hostel Block,197.36,High,1,2
+2023-02-07,Hostel Block,299.91,High,1,2
+2023-02-08,Library,133.69,High,2,2
+2023-02-08,Admin Block,209.36,High,2,2
+2023-02-08,Hostel Block,256.62,High,2,2
+2023-02-08,Main Block,273.96,High,2,2
+2023-02-09,Canteen,152.2,High,3,2
+2023-02-09,Canteen,169.3,High,3,2
+2023-02-10,Hostel Block,258.0,Medium,4,2
+2023-02-10,Main Block,146.52,Medium,4,2
+2023-02-10,Sports Complex,99.86,Medium,4,2
+2023-02-10,Canteen,183.69,Medium,4,2
+2023-02-10,Canteen,195.9,Medium,4,2
+2023-02-11,Main Block,97.81,Low,5,2
+2023-02-11,Canteen,61.64,Low,5,2
+2023-02-11,Canteen,86.06,Low,5,2
+2023-02-12,Hostel Block,128.82,Low,6,2
+2023-02-13,Computer Lab,243.5,Medium,0,2
+2023-02-13,Science Block,231.42,Medium,0,2
+2023-02-14,Computer Lab,226.66,High,1,2
+2023-02-14,Computer Lab,239.68,High,1,2
+2023-02-14,Hostel Block,263.98,High,1,2
+2023-02-14,Sports Complex,70.84,High,1,2
+2023-02-15,Canteen,215.74,High,2,2
+2023-02-16,Sports Complex,104.85,High,3,2
+2023-02-16,Sports Complex,160.25,High,3,2
+2023-02-16,Science Block,309.08,High,3,2
+2023-02-17,Sports Complex,118.66,Medium,4,2
+2023-02-17,Science Block,167.85,Medium,4,2
+2023-02-17,Science Block,328.38,Medium,4,2
+2023-02-17,Admin Block,142.32,Medium,4,2
+2023-02-17,Hostel Block,198.04,Medium,4,2
+2023-02-18,Sports Complex,39.05,Low,5,2
+2023-02-18,Main Block,106.31,Low,5,2
+2023-02-18,Canteen,106.31,Low,5,2
+2023-02-19,Sports Complex,58.13,Low,6,2
+2023-02-19,Canteen,108.14,Low,6,2
+2023-02-19,Sports Complex,31.95,Low,6,2
+2023-02-20,Science Block,269.87,Medium,0,2
+2023-02-20,Admin Block,130.86,Medium,0,2
+2023-02-21,Main Block,239.59,High,1,2
+2023-02-22,Computer Lab,327.81,High,2,2
+2023-02-22,Computer Lab,269.52,High,2,2
+2023-02-23,Library,85.22,High,3,2
+2023-02-23,Library,91.44,High,3,2
+2023-02-24,Sports Complex,57.03,Medium,4,2
+2023-02-24,Library,84.84,Medium,4,2
+2023-02-24,Canteen,110.04,Medium,4,2
+2023-02-24,Science Block,196.39,Medium,4,2
+2023-02-24,Admin Block,169.12,Medium,4,2
+2023-02-25,Main Block,150.45,Low,5,2
+2023-02-26,Admin Block,100.98,Low,6,2
+2023-02-27,Computer Lab,329.54,Medium,0,2
+2023-02-27,Main Block,236.83,Medium,0,2
+2023-02-27,Canteen,127.3,Medium,0,2
+2023-02-27,Computer Lab,247.99,Medium,0,2
+2023-02-28,Hostel Block,242.78,High,1,2
+2023-02-28,Science Block,326.3,High,1,2
+2023-02-28,Library,179.07,High,1,2
+2023-02-28,Main Block,266.41,High,1,2
+2023-03-01,Library,138.06,High,2,3
+2023-03-01,Library,80.2,High,2,3
+2023-03-01,Computer Lab,234.55,High,2,3
+2023-03-01,Admin Block,122.92,High,2,3
+2023-03-02,Hostel Block,269.0,High,3,3
+2023-03-02,Science Block,224.8,High,3,3
+2023-03-02,Main Block,227.22,High,3,3
+2023-03-02,Hostel Block,180.91,High,3,3
+2023-03-04,Admin Block,50.29,Low,5,3
+2023-03-05,Sports Complex,67.42,Low,6,3
+2023-03-05,Hostel Block,97.31,Low,6,3
+2023-03-06,Hostel Block,133.09,Medium,0,3
+2023-03-06,Admin Block,155.54,Medium,0,3
+2023-03-07,Main Block,326.84,High,1,3
+2023-03-08,Canteen,175.34,High,2,3
+2023-03-08,Sports Complex,107.99,High,2,3
+2023-03-09,Canteen,192.69,High,3,3
+2023-03-09,Computer Lab,369.59,High,3,3
+2023-03-09,Science Block,196.48,High,3,3
+2023-03-09,Admin Block,103.03,High,3,3
+2023-03-10,Hostel Block,137.42,Medium,4,3
+2023-03-10,Library,80.53,Medium,4,3
+2023-03-12,Sports Complex,46.53,Low,6,3
+2023-03-12,Main Block,163.71,Low,6,3
+2023-03-12,Main Block,100.57,Low,6,3
+2023-03-12,Library,30.0,Low,6,3
+2023-03-12,Hostel Block,71.62,Low,6,3
+2023-03-13,Computer Lab,252.33,Medium,0,3
+2023-03-13,Science Block,273.47,Medium,0,3
+2023-03-13,Hostel Block,146.34,Medium,0,3
+2023-03-13,Science Block,256.28,Medium,0,3
+2023-03-14,Sports Complex,107.37,High,1,3
+2023-03-14,Canteen,170.42,High,1,3
+2023-03-14,Computer Lab,232.56,High,1,3
+2023-03-15,Hostel Block,140.28,High,2,3
+2023-03-15,Sports Complex,89.53,High,2,3
+2023-03-15,Hostel Block,246.94,High,2,3
+2023-03-15,Science Block,246.12,High,2,3
+2023-03-15,Science Block,240.93,High,2,3
+2023-03-16,Admin Block,96.44,High,3,3
+2023-03-16,Science Block,275.16,High,3,3
+2023-03-16,Admin Block,138.0,High,3,3
+2023-03-16,Library,136.77,High,3,3
+2023-03-16,Computer Lab,218.38,High,3,3
+2023-03-17,Main Block,245.71,Medium,4,3
+2023-03-18,Library,30.0,Low,5,3
+2023-03-18,Sports Complex,30.0,Low,5,3
+2023-03-18,Library,79.34,Low,5,3
+2023-03-20,Hostel Block,110.07,Medium,0,3
+2023-03-20,Library,108.68,Medium,0,3
+2023-03-20,Sports Complex,129.2,Medium,0,3
+2023-03-21,Science Block,326.46,High,1,3
+2023-03-21,Admin Block,107.94,High,1,3
+2023-03-21,Sports Complex,117.31,High,1,3
+2023-03-21,Library,151.71,High,1,3
+2023-03-22,Hostel Block,141.56,High,2,3
+2023-03-22,Sports Complex,137.45,High,2,3
+2023-03-22,Hostel Block,196.99,High,2,3
+2023-03-22,Library,164.27,High,2,3
+2023-03-23,Sports Complex,126.01,High,3,3
+2023-03-23,Canteen,240.55,High,3,3
+2023-03-24,Main Block,181.69,Medium,4,3
+2023-03-24,Admin Block,109.85,Medium,4,3
+2023-03-25,Hostel Block,126.25,Low,5,3
+2023-03-26,Admin Block,92.36,Low,6,3
+2023-03-26,Science Block,160.78,Low,6,3
+2023-03-26,Hostel Block,111.28,Low,6,3
+2023-03-28,Library,104.3,High,1,3
+2023-03-28,Sports Complex,55.09,High,1,3
+2023-03-28,Computer Lab,288.0,High,1,3
+2023-03-28,Computer Lab,238.2,High,1,3
+2023-03-29,Science Block,204.39,High,2,3
+2023-03-30,Main Block,178.52,High,3,3
+2023-03-30,Computer Lab,212.39,High,3,3
+2023-03-30,Hostel Block,294.55,High,3,3
+2023-03-31,Sports Complex,106.82,Medium,4,3
+2023-03-31,Library,122.85,Medium,4,3
+2023-03-31,Computer Lab,315.23,Medium,4,3
+2023-03-31,Admin Block,102.31,Medium,4,3
+2023-03-31,Hostel Block,210.63,Medium,4,3
+2023-03-31,Hostel Block,201.15,Medium,4,3
+2023-04-01,Sports Complex,56.75,Low,5,4
+2023-04-01,Main Block,133.13,Low,5,4
+2023-04-01,Sports Complex,30.0,Low,5,4
+2023-04-02,Admin Block,51.53,Low,6,4
+2023-04-02,Computer Lab,166.89,Low,6,4
+2023-04-03,Admin Block,105.81,Medium,0,4
+2023-04-03,Library,137.71,Medium,0,4
+2023-04-04,Admin Block,145.84,High,1,4
+2023-04-04,Main Block,172.96,High,1,4
+2023-04-06,Sports Complex,93.71,High,3,4
+2023-04-06,Computer Lab,294.76,High,3,4
+2023-04-06,Hostel Block,241.76,High,3,4
+2023-04-06,Hostel Block,202.77,High,3,4
+2023-04-07,Science Block,209.4,Medium,4,4
+2023-04-07,Canteen,161.8,Medium,4,4
+2023-04-08,Hostel Block,80.94,Low,5,4
+2023-04-08,Admin Block,78.28,Low,5,4
+2023-04-09,Science Block,97.12,Low,6,4
+2023-04-09,Sports Complex,53.57,Low,6,4
+2023-04-10,Sports Complex,118.83,Medium,0,4
+2023-04-10,Admin Block,111.45,Medium,0,4
+2023-04-10,Canteen,199.8,Medium,0,4
+2023-04-11,Hostel Block,174.79,High,1,4
+2023-04-11,Hostel Block,169.3,High,1,4
+2023-04-11,Canteen,159.39,High,1,4
+2023-04-12,Computer Lab,320.73,High,2,4
+2023-04-12,Sports Complex,105.84,High,2,4
+2023-04-12,Library,86.9,High,2,4
+2023-04-13,Library,116.11,High,3,4
+2023-04-14,Main Block,218.59,Medium,4,4
+2023-04-15,Admin Block,68.29,Low,5,4
+2023-04-15,Library,89.37,Low,5,4
+2023-04-15,Admin Block,77.17,Low,5,4
+2023-04-15,Canteen,83.21,Low,5,4
+2023-04-16,Hostel Block,74.99,Low,6,4
+2023-04-19,Canteen,233.49,High,2,4
+2023-04-19,Canteen,130.38,High,2,4
+2023-04-20,Science Block,312.6,High,3,4
+2023-04-20,Library,149.55,High,3,4
+2023-04-20,Science Block,219.98,High,3,4
+2023-04-20,Library,174.94,High,3,4
+2023-04-20,Admin Block,110.01,High,3,4
+2023-04-21,Canteen,109.02,Medium,4,4
+2023-04-22,Hostel Block,92.33,Low,5,4
+2023-04-22,Hostel Block,120.67,Low,5,4
+2023-04-22,Computer Lab,106.24,Low,5,4
+2023-04-23,Admin Block,31.56,Low,6,4
+2023-04-24,Computer Lab,262.98,Medium,0,4
+2023-04-24,Science Block,288.57,Medium,0,4
+2023-04-24,Main Block,222.48,Medium,0,4
+2023-04-25,Main Block,268.64,High,1,4
+2023-04-26,Admin Block,189.06,High,2,4
+2023-04-26,Computer Lab,281.59,High,2,4
+2023-04-26,Hostel Block,153.05,High,2,4
+2023-04-26,Sports Complex,125.94,High,2,4
+2023-04-26,Admin Block,131.38,High,2,4
+2023-04-27,Admin Block,203.03,High,3,4
+2023-04-27,Science Block,163.0,High,3,4
+2023-04-27,Sports Complex,110.81,High,3,4
+2023-04-28,Sports Complex,62.97,Medium,4,4
+2023-04-28,Canteen,123.99,Medium,4,4
+2023-04-28,Main Block,251.16,Medium,4,4
+2023-04-28,Science Block,222.5,Medium,4,4
+2023-04-29,Main Block,122.38,Low,5,4
+2023-04-29,Computer Lab,150.69,Low,5,4
+2023-04-29,Sports Complex,89.68,Low,5,4
+2023-04-29,Computer Lab,155.76,Low,5,4
+2023-04-29,Computer Lab,173.09,Low,5,4
+2023-04-30,Sports Complex,55.88,Low,6,4
+2023-04-30,Computer Lab,142.73,Low,6,4
+2023-04-30,Hostel Block,64.48,Low,6,4
+2023-04-30,Main Block,113.58,Low,6,4
+2023-04-30,Canteen,98.82,Low,6,4
+2023-05-01,Hostel Block,190.39,Medium,0,5
+2023-05-01,Sports Complex,52.64,Medium,0,5
+2023-05-01,Admin Block,115.74,Medium,0,5
+2023-05-01,Canteen,116.34,Medium,0,5
+2023-05-02,Hostel Block,243.79,High,1,5
+2023-05-02,Library,144.11,High,1,5
+2023-05-02,Admin Block,173.09,High,1,5
+2023-05-02,Canteen,109.46,High,1,5
+2023-05-03,Canteen,219.38,High,2,5
+2023-05-03,Sports Complex,93.21,High,2,5
+2023-05-03,Hostel Block,178.09,High,2,5
+2023-05-04,Hostel Block,219.02,High,3,5
+2023-05-04,Computer Lab,232.99,High,3,5
+2023-05-04,Hostel Block,219.6,High,3,5
+2023-05-04,Hostel Block,275.85,High,3,5
+2023-05-05,Canteen,146.05,Medium,4,5
+2023-05-06,Computer Lab,185.68,Low,5,5
+2023-05-06,Hostel Block,114.6,Low,5,5
+2023-05-07,Science Block,138.61,Low,6,5
+2023-05-07,Admin Block,113.33,Low,6,5
+2023-05-07,Admin Block,115.69,Low,6,5
+2023-05-07,Hostel Block,113.05,Low,6,5
+2023-05-08,Canteen,112.1,Medium,0,5
+2023-05-08,Computer Lab,277.86,Medium,0,5
+2023-05-08,Computer Lab,254.71,Medium,0,5
+2023-05-08,Computer Lab,187.47,Medium,0,5
+2023-05-08,Admin Block,163.85,Medium,0,5
+2023-05-08,Main Block,178.14,Medium,0,5
+2023-05-08,Admin Block,112.52,Medium,0,5
+2023-05-08,Computer Lab,227.24,Medium,0,5
+2023-05-09,Computer Lab,263.99,High,1,5
+2023-05-09,Main Block,161.43,High,1,5
+2023-05-09,Science Block,275.12,High,1,5
+2023-05-11,Science Block,221.9,High,3,5
+2023-05-11,Hostel Block,199.68,High,3,5
+2023-05-11,Admin Block,135.33,High,3,5
+2023-05-14,Hostel Block,74.97,Low,6,5
+2023-05-15,Library,113.72,Medium,0,5
+2023-05-15,Library,133.62,Medium,0,5
+2023-05-15,Computer Lab,245.78,Medium,0,5
+2023-05-16,Main Block,160.02,High,1,5
+2023-05-16,Science Block,245.01,High,1,5
+2023-05-16,Computer Lab,237.49,High,1,5
+2023-05-16,Science Block,283.21,High,1,5
+2023-05-16,Main Block,158.71,High,1,5
+2023-05-16,Canteen,207.44,High,1,5
+2023-05-16,Canteen,192.15,High,1,5
+2023-05-17,Computer Lab,216.62,High,2,5
+2023-05-17,Sports Complex,71.19,High,2,5
+2023-05-17,Library,76.53,High,2,5
+2023-05-18,Admin Block,118.43,High,3,5
+2023-05-19,Admin Block,88.31,Medium,4,5
+2023-05-19,Computer Lab,187.08,Medium,4,5
+2023-05-20,Sports Complex,52.05,Low,5,5
+2023-05-20,Hostel Block,96.94,Low,5,5
+2023-05-20,Library,45.24,Low,5,5
+2023-05-20,Admin Block,110.28,Low,5,5
+2023-05-21,Science Block,106.9,Low,6,5
+2023-05-21,Hostel Block,85.26,Low,6,5
+2023-05-21,Computer Lab,142.58,Low,6,5
+2023-05-21,Main Block,117.15,Low,6,5
+2023-05-21,Admin Block,57.92,Low,6,5
+2023-05-22,Sports Complex,69.61,Medium,0,5
+2023-05-22,Sports Complex,62.41,Medium,0,5
+2023-05-22,Science Block,281.31,Medium,0,5
+2023-05-23,Science Block,300.36,High,1,5
+2023-05-23,Canteen,157.39,High,1,5
+2023-05-24,Main Block,263.89,High,2,5
+2023-05-25,Hostel Block,230.51,High,3,5
+2023-05-25,Sports Complex,89.7,High,3,5
+2023-05-25,Admin Block,213.24,High,3,5
+2023-05-25,Sports Complex,74.06,High,3,5
+2023-05-27,Science Block,119.29,Low,5,5
+2023-05-27,Computer Lab,153.97,Low,5,5
+2023-05-28,Computer Lab,158.82,Low,6,5
+2023-05-28,Admin Block,107.67,Low,6,5
+2023-05-28,Hostel Block,132.77,Low,6,5
+2023-05-28,Science Block,126.93,Low,6,5
+2023-05-28,Canteen,73.41,Low,6,5
+2023-05-29,Science Block,286.1,Medium,0,5
+2023-05-29,Main Block,142.72,Medium,0,5
+2023-05-30,Admin Block,158.68,High,1,5
+2023-05-30,Computer Lab,354.45,High,1,5
+2023-05-30,Hostel Block,280.9,High,1,5
+2023-05-30,Sports Complex,35.1,High,1,5
+2023-05-31,Canteen,164.08,High,2,5
+2023-06-01,Science Block,314.87,High,3,6
+2023-06-01,Main Block,280.18,High,3,6
+2023-06-02,Science Block,327.65,Medium,4,6
+2023-06-02,Admin Block,157.79,Medium,4,6
+2023-06-02,Hostel Block,188.27,Medium,4,6
+2023-06-02,Sports Complex,67.24,Medium,4,6
+2023-06-03,Hostel Block,103.24,Low,5,6
+2023-06-03,Library,67.68,Low,5,6
+2023-06-03,Hostel Block,101.36,Low,5,6
+2023-06-03,Sports Complex,30.0,Low,5,6
+2023-06-03,Library,61.02,Low,5,6
+2023-06-03,Admin Block,102.22,Low,5,6
+2023-06-03,Main Block,115.07,Low,5,6
+2023-06-04,Hostel Block,94.72,Low,6,6
+2023-06-04,Computer Lab,162.48,Low,6,6
+2023-06-04,Science Block,184.31,Low,6,6
+2023-06-04,Science Block,124.64,Low,6,6
+2023-06-05,Computer Lab,248.27,Medium,0,6
+2023-06-05,Admin Block,127.36,Medium,0,6
+2023-06-05,Science Block,179.95,Medium,0,6
+2023-06-05,Library,74.88,Medium,0,6
+2023-06-05,Main Block,233.5,Medium,0,6
+2023-06-06,Hostel Block,217.35,High,1,6
+2023-06-07,Hostel Block,170.16,High,2,6
+2023-06-07,Main Block,156.7,High,2,6
+2023-06-08,Library,178.17,High,3,6
+2023-06-08,Sports Complex,117.79,High,3,6
+2023-06-08,Canteen,154.3,High,3,6
+2023-06-08,Computer Lab,284.89,High,3,6
+2023-06-08,Hostel Block,252.68,High,3,6
+2023-06-09,Canteen,218.75,Medium,4,6
+2023-06-09,Main Block,179.34,Medium,4,6
+2023-06-10,Science Block,159.06,Low,5,6
+2023-06-10,Sports Complex,58.31,Low,5,6
+2023-06-10,Computer Lab,141.4,Low,5,6
+2023-06-11,Main Block,140.59,Low,6,6
+2023-06-11,Admin Block,54.67,Low,6,6
+2023-06-11,Computer Lab,158.12,Low,6,6
+2023-06-11,Hostel Block,99.2,Low,6,6
+2023-06-11,Sports Complex,43.71,Low,6,6
+2023-06-12,Canteen,134.91,Medium,0,6
+2023-06-12,Computer Lab,240.27,Medium,0,6
+2023-06-12,Library,94.1,Medium,0,6
+2023-06-13,Computer Lab,240.01,High,1,6
+2023-06-13,Sports Complex,85.41,High,1,6
+2023-06-13,Canteen,212.52,High,1,6
+2023-06-13,Computer Lab,368.56,High,1,6
+2023-06-13,Canteen,274.95,High,1,6
+2023-06-14,Science Block,315.11,High,2,6
+2023-06-14,Science Block,351.34,High,2,6
+2023-06-15,Admin Block,144.19,High,3,6
+2023-06-15,Admin Block,87.74,High,3,6
+2023-06-17,Main Block,138.04,Low,5,6
+2023-06-17,Science Block,135.89,Low,5,6
+2023-06-17,Sports Complex,41.56,Low,5,6
+2023-06-17,Sports Complex,42.91,Low,5,6
+2023-06-18,Admin Block,94.19,Low,6,6
+2023-06-18,Hostel Block,86.9,Low,6,6
+2023-06-19,Sports Complex,36.37,Medium,0,6
+2023-06-20,Hostel Block,182.51,High,1,6
+2023-06-20,Library,70.87,High,1,6
+2023-06-20,Sports Complex,149.34,High,1,6
+2023-06-20,Admin Block,225.35,High,1,6
+2023-06-20,Sports Complex,147.13,High,1,6
+2023-06-20,Library,172.0,High,1,6
+2023-06-20,Science Block,369.87,High,1,6
+2023-06-21,Admin Block,165.35,High,2,6
+2023-06-22,Computer Lab,226.69,High,3,6
+2023-06-22,Sports Complex,81.69,High,3,6
+2023-06-23,Computer Lab,253.1,Medium,4,6
+2023-06-23,Computer Lab,227.32,Medium,4,6
+2023-06-23,Main Block,248.63,Medium,4,6
+2023-06-23,Canteen,183.54,Medium,4,6
+2023-06-24,Computer Lab,132.3,Low,5,6
+2023-06-24,Admin Block,52.29,Low,5,6
+2023-06-24,Library,61.83,Low,5,6
+2023-06-24,Admin Block,98.09,Low,5,6
+2023-06-24,Hostel Block,68.06,Low,5,6
+2023-06-25,Computer Lab,142.5,Low,6,6
+2023-06-25,Canteen,120.83,Low,6,6
+2023-06-26,Admin Block,167.54,Medium,0,6
+2023-06-26,Sports Complex,113.92,Medium,0,6
+2023-06-26,Computer Lab,264.25,Medium,0,6
+2023-06-27,Main Block,158.06,High,1,6
+2023-06-28,Computer Lab,232.93,High,2,6
+2023-06-28,Hostel Block,141.99,High,2,6
+2023-06-28,Main Block,204.93,High,2,6
+2023-06-28,Admin Block,134.17,High,2,6
+2023-06-28,Canteen,198.67,High,2,6
+2023-06-28,Canteen,246.55,High,2,6
+2023-06-28,Computer Lab,353.9,High,2,6
+2023-06-29,Hostel Block,127.29,High,3,6
+2023-06-29,Main Block,165.98,High,3,6
+2023-06-29,Canteen,145.61,High,3,6
+2023-06-30,Admin Block,166.0,Medium,4,6
+2023-06-30,Sports Complex,73.3,Medium,4,6
+2023-06-30,Library,68.99,Medium,4,6
+2023-06-30,Science Block,243.61,Medium,4,6
+2023-06-30,Computer Lab,252.24,Medium,4,6
+2023-07-01,Science Block,125.78,Low,5,7
+2023-07-02,Computer Lab,135.2,Low,6,7
+2023-07-03,Admin Block,101.13,Medium,0,7
+2023-07-03,Main Block,194.82,Medium,0,7
+2023-07-04,Computer Lab,228.95,High,1,7
+2023-07-04,Science Block,185.92,High,1,7
+2023-07-04,Computer Lab,399.24,High,1,7
+2023-07-05,Computer Lab,286.01,High,2,7
+2023-07-05,Hostel Block,215.43,High,2,7
+2023-07-05,Admin Block,121.82,High,2,7
+2023-07-07,Main Block,185.65,Medium,4,7
+2023-07-07,Canteen,136.99,Medium,4,7
+2023-07-08,Sports Complex,82.56,Low,5,7
+2023-07-08,Admin Block,119.69,Low,5,7
+2023-07-08,Canteen,116.14,Low,5,7
+2023-07-08,Library,51.61,Low,5,7
+2023-07-09,Admin Block,63.91,Low,6,7
+2023-07-09,Canteen,77.5,Low,6,7
+2023-07-09,Sports Complex,79.42,Low,6,7
+2023-07-09,Library,61.09,Low,6,7
+2023-07-10,Hostel Block,201.48,Medium,0,7
+2023-07-10,Library,116.0,Medium,0,7
+2023-07-11,Admin Block,165.26,High,1,7
+2023-07-11,Main Block,251.83,High,1,7
+2023-07-12,Canteen,223.8,High,2,7
+2023-07-12,Hostel Block,133.0,High,2,7
+2023-07-13,Sports Complex,78.37,High,3,7
+2023-07-13,Computer Lab,281.71,High,3,7
+2023-07-13,Main Block,283.82,High,3,7
+2023-07-14,Hostel Block,195.78,Medium,4,7
+2023-07-14,Library,123.11,Medium,4,7
+2023-07-14,Hostel Block,221.32,Medium,4,7
+2023-07-14,Sports Complex,92.69,Medium,4,7
+2023-07-14,Admin Block,186.94,Medium,4,7
+2023-07-15,Hostel Block,110.0,Low,5,7
+2023-07-16,Sports Complex,50.99,Low,6,7
+2023-07-16,Hostel Block,98.46,Low,6,7
+2023-07-17,Sports Complex,78.27,Medium,0,7
+2023-07-19,Canteen,228.76,High,2,7
+2023-07-19,Admin Block,212.49,High,2,7
+2023-07-20,Computer Lab,275.19,High,3,7
+2023-07-20,Hostel Block,236.66,High,3,7
+2023-07-21,Canteen,121.97,Medium,4,7
+2023-07-21,Hostel Block,235.69,Medium,4,7
+2023-07-22,Library,75.04,Low,5,7
+2023-07-22,Canteen,66.44,Low,5,7
+2023-07-22,Main Block,91.63,Low,5,7
+2023-07-22,Canteen,119.88,Low,5,7
+2023-07-22,Admin Block,115.54,Low,5,7
+2023-07-23,Hostel Block,105.26,Low,6,7
+2023-07-23,Canteen,133.35,Low,6,7
+2023-07-23,Computer Lab,193.38,Low,6,7
+2023-07-24,Canteen,159.59,Medium,0,7
+2023-07-25,Hostel Block,129.22,High,1,7
+2023-07-25,Computer Lab,327.39,High,1,7
+2023-07-25,Main Block,218.38,High,1,7
+2023-07-25,Sports Complex,136.01,High,1,7
+2023-07-25,Computer Lab,289.2,High,1,7
+2023-07-26,Main Block,255.58,High,2,7
+2023-07-27,Library,160.08,High,3,7
+2023-07-27,Hostel Block,195.6,High,3,7
+2023-07-27,Library,98.39,High,3,7
+2023-07-27,Admin Block,164.07,High,3,7
+2023-07-27,Canteen,204.22,High,3,7
+2023-07-28,Hostel Block,177.73,Medium,4,7
+2023-07-28,Canteen,150.65,Medium,4,7
+2023-07-29,Hostel Block,130.47,Low,5,7
+2023-07-29,Library,62.91,Low,5,7
+2023-07-29,Canteen,102.49,Low,5,7
+2023-07-29,Hostel Block,67.11,Low,5,7
+2023-07-30,Main Block,167.36,Low,6,7
+2023-07-30,Canteen,126.13,Low,6,7
+2023-07-30,Hostel Block,150.13,Low,6,7
+2023-07-30,Main Block,108.31,Low,6,7
+2023-07-30,Main Block,88.76,Low,6,7
+2023-07-31,Library,142.28,Medium,0,7
+2023-07-31,Science Block,208.21,Medium,0,7
+2023-08-01,Hostel Block,220.0,High,1,8
+2023-08-01,Computer Lab,228.23,High,1,8
+2023-08-01,Main Block,167.68,High,1,8
+2023-08-02,Admin Block,119.58,High,2,8
+2023-08-02,Science Block,293.86,High,2,8
+2023-08-02,Admin Block,196.71,High,2,8
+2023-08-03,Science Block,275.41,High,3,8
+2023-08-03,Library,158.83,High,3,8
+2023-08-03,Main Block,160.56,High,3,8
+2023-08-04,Admin Block,180.87,Medium,4,8
+2023-08-04,Sports Complex,107.98,Medium,4,8
+2023-08-04,Hostel Block,139.76,Medium,4,8
+2023-08-04,Computer Lab,264.9,Medium,4,8
+2023-08-05,Admin Block,58.71,Low,5,8
+2023-08-05,Library,80.64,Low,5,8
+2023-08-05,Canteen,37.09,Low,5,8
+2023-08-05,Main Block,131.62,Low,5,8
+2023-08-06,Admin Block,89.29,Low,6,8
+2023-08-06,Computer Lab,177.34,Low,6,8
+2023-08-06,Computer Lab,105.99,Low,6,8
+2023-08-07,Hostel Block,143.42,Medium,0,8
+2023-08-07,Library,132.2,Medium,0,8
+2023-08-07,Hostel Block,105.59,Medium,0,8
+2023-08-08,Canteen,212.69,High,1,8
+2023-08-08,Sports Complex,120.36,High,1,8
+2023-08-08,Science Block,376.97,High,1,8
+2023-08-08,Admin Block,172.48,High,1,8
+2023-08-08,Sports Complex,52.44,High,1,8
+2023-08-08,Library,153.83,High,1,8
+2023-08-08,Science Block,274.73,High,1,8
+2023-08-08,Canteen,137.38,High,1,8
+2023-08-09,Canteen,184.35,High,2,8
+2023-08-11,Library,116.31,Medium,4,8
+2023-08-11,Canteen,159.24,Medium,4,8
+2023-08-12,Science Block,91.61,Low,5,8
+2023-08-13,Hostel Block,100.18,Low,6,8
+2023-08-14,Computer Lab,259.1,Medium,0,8
+2023-08-14,Canteen,125.17,Medium,0,8
+2023-08-14,Main Block,192.94,Medium,0,8
+2023-08-14,Sports Complex,59.99,Medium,0,8
+2023-08-14,Canteen,144.59,Medium,0,8
+2023-08-15,Admin Block,100.33,High,1,8
+2023-08-15,Sports Complex,105.11,High,1,8
+2023-08-15,Science Block,278.63,High,1,8
+2023-08-15,Sports Complex,144.6,High,1,8
+2023-08-16,Computer Lab,356.83,High,2,8
+2023-08-16,Hostel Block,157.95,High,2,8
+2023-08-17,Hostel Block,171.37,High,3,8
+2023-08-17,Main Block,193.8,High,3,8
+2023-08-18,Science Block,231.33,Medium,4,8
+2023-08-19,Computer Lab,192.46,Low,5,8
+2023-08-19,Hostel Block,59.83,Low,5,8
+2023-08-19,Science Block,162.35,Low,5,8
+2023-08-19,Admin Block,123.42,Low,5,8
+2023-08-20,Main Block,79.8,Low,6,8
+2023-08-21,Admin Block,123.66,Medium,0,8
+2023-08-21,Computer Lab,283.04,Medium,0,8
+2023-08-21,Sports Complex,81.11,Medium,0,8
+2023-08-21,Admin Block,132.61,Medium,0,8
+2023-08-21,Canteen,120.41,Medium,0,8
+2023-08-21,Computer Lab,264.06,Medium,0,8
+2023-08-21,Library,103.45,Medium,0,8
+2023-08-21,Canteen,106.35,Medium,0,8
+2023-08-22,Science Block,298.74,High,1,8
+2023-08-22,Main Block,239.81,High,1,8
+2023-08-22,Main Block,260.13,High,1,8
+2023-08-23,Admin Block,167.9,High,2,8
+2023-08-23,Hostel Block,222.14,High,2,8
+2023-08-24,Main Block,178.39,High,3,8
+2023-08-24,Computer Lab,398.25,High,3,8
+2023-08-24,Canteen,180.72,High,3,8
+2023-08-25,Science Block,208.39,Medium,4,8
+2023-08-26,Canteen,103.88,Low,5,8
+2023-08-26,Admin Block,88.68,Low,5,8
+2023-08-28,Admin Block,142.47,Medium,0,8
+2023-08-28,Admin Block,187.18,Medium,0,8
+2023-08-29,Main Block,269.45,High,1,8
+2023-08-29,Admin Block,135.75,High,1,8
+2023-08-29,Hostel Block,218.72,High,1,8
+2023-08-29,Main Block,218.28,High,1,8
+2023-08-29,Canteen,265.42,High,1,8
+2023-08-30,Library,155.13,High,2,8
+2023-08-30,Main Block,192.21,High,2,8
+2023-08-30,Computer Lab,296.47,High,2,8
+2023-08-31,Sports Complex,82.31,High,3,8
+2023-08-31,Sports Complex,59.19,High,3,8
+2023-08-31,Computer Lab,325.64,High,3,8
+2023-09-01,Hostel Block,155.35,Medium,4,9
+2023-09-01,Hostel Block,201.81,Medium,4,9
+2023-09-01,Hostel Block,162.34,Medium,4,9
+2023-09-01,Library,158.62,Medium,4,9
+2023-09-01,Library,95.39,Medium,4,9
+2023-09-02,Sports Complex,54.56,Low,5,9
+2023-09-02,Computer Lab,195.0,Low,5,9
+2023-09-02,Library,54.91,Low,5,9
+2023-09-02,Computer Lab,94.5,Low,5,9
+2023-09-03,Sports Complex,81.77,Low,6,9
+2023-09-03,Library,79.58,Low,6,9
+2023-09-03,Sports Complex,45.49,Low,6,9
+2023-09-04,Admin Block,154.08,Medium,0,9
+2023-09-04,Science Block,283.15,Medium,0,9
+2023-09-04,Science Block,238.65,Medium,0,9
+2023-09-05,Hostel Block,170.77,High,1,9
+2023-09-05,Computer Lab,256.87,High,1,9
+2023-09-05,Admin Block,197.14,High,1,9
+2023-09-06,Canteen,217.04,High,2,9
+2023-09-06,Computer Lab,215.71,High,2,9
+2023-09-06,Computer Lab,400.75,High,2,9
+2023-09-07,Library,137.69,High,3,9
+2023-09-07,Canteen,162.67,High,3,9
+2023-09-08,Main Block,130.97,Medium,4,9
+2023-09-08,Admin Block,117.41,Medium,4,9
+2023-09-08,Sports Complex,128.86,Medium,4,9
+2023-09-08,Hostel Block,145.7,Medium,4,9
+2023-09-09,Science Block,85.3,Low,5,9
+2023-09-09,Hostel Block,125.7,Low,5,9
+2023-09-09,Hostel Block,61.86,Low,5,9
+2023-09-09,Computer Lab,148.96,Low,5,9
+2023-09-09,Sports Complex,81.13,Low,5,9
+2023-09-10,Main Block,68.9,Low,6,9
+2023-09-11,Canteen,136.4,Medium,0,9
+2023-09-12,Admin Block,207.72,High,1,9
+2023-09-13,Hostel Block,245.05,High,2,9
+2023-09-13,Main Block,246.28,High,2,9
+2023-09-13,Sports Complex,145.26,High,2,9
+2023-09-13,Hostel Block,187.93,High,2,9
+2023-09-15,Library,95.0,Medium,4,9
+2023-09-16,Hostel Block,96.12,Low,5,9
+2023-09-17,Science Block,98.47,Low,6,9
+2023-09-17,Admin Block,90.39,Low,6,9
+2023-09-17,Hostel Block,102.97,Low,6,9
+2023-09-18,Sports Complex,88.13,Medium,0,9
+2023-09-18,Computer Lab,306.95,Medium,0,9
+2023-09-18,Science Block,167.25,Medium,0,9
+2023-09-19,Hostel Block,249.85,High,1,9
+2023-09-19,Canteen,135.8,High,1,9
+2023-09-19,Computer Lab,261.1,High,1,9
+2023-09-20,Computer Lab,279.01,High,2,9
+2023-09-20,Computer Lab,254.56,High,2,9
+2023-09-20,Library,171.55,High,2,9
+2023-09-20,Hostel Block,199.38,High,2,9
+2023-09-21,Canteen,141.94,High,3,9
+2023-09-21,Sports Complex,136.11,High,3,9
+2023-09-22,Science Block,153.78,Medium,4,9
+2023-09-22,Computer Lab,247.1,Medium,4,9
+2023-09-22,Hostel Block,141.39,Medium,4,9
+2023-09-23,Science Block,154.83,Low,5,9
+2023-09-23,Admin Block,113.21,Low,5,9
+2023-09-24,Hostel Block,99.7,Low,6,9
+2023-09-24,Hostel Block,99.16,Low,6,9
+2023-09-25,Admin Block,87.01,Medium,0,9
+2023-09-26,Admin Block,206.71,High,1,9
+2023-09-26,Library,110.54,High,1,9
+2023-09-28,Canteen,139.24,High,3,9
+2023-09-29,Canteen,124.83,Medium,4,9
+2023-09-29,Science Block,225.05,Medium,4,9
+2023-09-30,Library,30.0,Low,5,9
+2023-10-01,Sports Complex,30.0,Low,6,10
+2023-10-01,Library,43.94,Low,6,10
+2023-10-02,Admin Block,143.47,Medium,0,10
+2023-10-02,Library,109.32,Medium,0,10
+2023-10-02,Canteen,197.29,Medium,0,10
+2023-10-03,Hostel Block,207.44,High,1,10
+2023-10-03,Hostel Block,145.05,High,1,10
+2023-10-03,Sports Complex,107.87,High,1,10
+2023-10-03,Science Block,265.17,High,1,10
+2023-10-03,Library,107.69,High,1,10
+2023-10-03,Library,126.65,High,1,10
+2023-10-03,Admin Block,180.62,High,1,10
+2023-10-04,Main Block,294.81,High,2,10
+2023-10-04,Science Block,322.99,High,2,10
+2023-10-04,Canteen,156.48,High,2,10
+2023-10-04,Science Block,291.05,High,2,10
+2023-10-05,Main Block,227.48,High,3,10
+2023-10-05,Hostel Block,194.97,High,3,10
+2023-10-06,Sports Complex,80.02,Medium,4,10
+2023-10-06,Admin Block,151.31,Medium,4,10
+2023-10-06,Main Block,165.83,Medium,4,10
+2023-10-06,Science Block,265.59,Medium,4,10
+2023-10-06,Canteen,157.28,Medium,4,10
+2023-10-06,Hostel Block,137.03,Medium,4,10
+2023-10-07,Hostel Block,75.09,Low,5,10
+2023-10-07,Library,110.92,Low,5,10
+2023-10-07,Admin Block,94.17,Low,5,10
+2023-10-07,Canteen,122.46,Low,5,10
+2023-10-08,Hostel Block,117.67,Low,6,10
+2023-10-08,Science Block,165.0,Low,6,10
+2023-10-09,Main Block,239.44,Medium,0,10
+2023-10-09,Hostel Block,196.5,Medium,0,10
+2023-10-09,Admin Block,201.06,Medium,0,10
+2023-10-09,Computer Lab,201.67,Medium,0,10
+2023-10-09,Canteen,133.8,Medium,0,10
+2023-10-10,Admin Block,116.09,High,1,10
+2023-10-10,Library,152.76,High,1,10
+2023-10-10,Library,109.02,High,1,10
+2023-10-10,Sports Complex,114.34,High,1,10
+2023-10-10,Library,190.84,High,1,10
+2023-10-10,Library,105.33,High,1,10
+2023-10-10,Sports Complex,114.48,High,1,10
+2023-10-11,Sports Complex,102.87,High,2,10
+2023-10-11,Admin Block,208.29,High,2,10
+2023-10-11,Main Block,215.78,High,2,10
+2023-10-11,Computer Lab,356.17,High,2,10
+2023-10-11,Science Block,311.98,High,2,10
+2023-10-11,Library,102.6,High,2,10
+2023-10-12,Sports Complex,91.1,High,3,10
+2023-10-12,Hostel Block,154.6,High,3,10
+2023-10-13,Library,116.82,Medium,4,10
+2023-10-13,Canteen,101.2,Medium,4,10
+2023-10-14,Sports Complex,78.35,Low,5,10
+2023-10-15,Canteen,121.41,Low,6,10
+2023-10-15,Computer Lab,144.2,Low,6,10
+2023-10-15,Sports Complex,58.91,Low,6,10
+2023-10-15,Main Block,97.66,Low,6,10
+2023-10-15,Canteen,119.21,Low,6,10
+2023-10-16,Science Block,287.3,Medium,0,10
+2023-10-16,Main Block,143.43,Medium,0,10
+2023-10-16,Computer Lab,161.29,Medium,0,10
+2023-10-16,Main Block,248.28,Medium,0,10
+2023-10-16,Main Block,214.96,Medium,0,10
+2023-10-16,Hostel Block,185.45,Medium,0,10
+2023-10-16,Admin Block,101.26,Medium,0,10
+2023-10-16,Computer Lab,177.54,Medium,0,10
+2023-10-16,Science Block,242.91,Medium,0,10
+2023-10-17,Science Block,206.05,High,1,10
+2023-10-17,Main Block,207.45,High,1,10
+2023-10-17,Canteen,230.75,High,1,10
+2023-10-17,Main Block,276.44,High,1,10
+2023-10-17,Library,95.05,High,1,10
+2023-10-17,Main Block,270.08,High,1,10
+2023-10-18,Science Block,206.23,High,2,10
+2023-10-18,Computer Lab,403.0,High,2,10
+2023-10-18,Computer Lab,404.76,High,2,10
+2023-10-18,Sports Complex,139.77,High,2,10
+2023-10-18,Main Block,234.28,High,2,10
+2023-10-19,Sports Complex,107.31,High,3,10
+2023-10-19,Sports Complex,56.53,High,3,10
+2023-10-19,Science Block,269.86,High,3,10
+2023-10-19,Admin Block,164.32,High,3,10
+2023-10-19,Science Block,292.15,High,3,10
+2023-10-19,Science Block,279.47,High,3,10
+2023-10-20,Hostel Block,177.45,Medium,4,10
+2023-10-20,Science Block,196.15,Medium,4,10
+2023-10-20,Canteen,165.33,Medium,4,10
+2023-10-20,Sports Complex,83.6,Medium,4,10
+2023-10-20,Hostel Block,124.89,Medium,4,10
+2023-10-21,Canteen,93.92,Low,5,10
+2023-10-21,Main Block,103.51,Low,5,10
+2023-10-21,Sports Complex,61.09,Low,5,10
+2023-10-21,Library,70.82,Low,5,10
+2023-10-21,Sports Complex,73.28,Low,5,10
+2023-10-22,Computer Lab,117.61,Low,6,10
+2023-10-22,Sports Complex,56.58,Low,6,10
+2023-10-22,Canteen,69.92,Low,6,10
+2023-10-22,Science Block,162.35,Low,6,10
+2023-10-22,Sports Complex,34.59,Low,6,10
+2023-10-23,Science Block,177.16,Medium,0,10
+2023-10-23,Science Block,196.91,Medium,0,10
+2023-10-23,Admin Block,148.05,Medium,0,10
+2023-10-23,Library,107.66,Medium,0,10
+2023-10-24,Main Block,258.9,High,1,10
+2023-10-24,Hostel Block,265.14,High,1,10
+2023-10-25,Canteen,191.82,High,2,10
+2023-10-26,Canteen,233.57,High,3,10
+2023-10-26,Hostel Block,150.54,High,3,10
+2023-10-26,Library,176.34,High,3,10
+2023-10-27,Sports Complex,92.96,Medium,4,10
+2023-10-27,Sports Complex,65.15,Medium,4,10
+2023-10-27,Main Block,235.58,Medium,4,10
+2023-10-28,Library,72.98,Low,5,10
+2023-10-28,Canteen,96.8,Low,5,10
+2023-10-29,Admin Block,122.25,Low,6,10
+2023-10-29,Science Block,127.43,Low,6,10
+2023-10-29,Library,51.43,Low,6,10
+2023-10-29,Canteen,118.77,Low,6,10
+2023-10-30,Canteen,207.26,Medium,0,10
+2023-10-30,Computer Lab,300.26,Medium,0,10
+2023-10-30,Library,128.97,Medium,0,10
+2023-10-31,Hostel Block,224.92,High,1,10
+2023-10-31,Admin Block,146.4,High,1,10
+2023-10-31,Main Block,171.98,High,1,10
+2023-11-02,Canteen,224.44,High,3,11
+2023-11-02,Main Block,204.68,High,3,11
+2023-11-02,Library,96.97,High,3,11
+2023-11-02,Admin Block,181.92,High,3,11
+2023-11-03,Main Block,110.73,Medium,4,11
+2023-11-03,Library,138.32,Medium,4,11
+2023-11-03,Main Block,192.28,Medium,4,11
+2023-11-04,Admin Block,68.96,Low,5,11
+2023-11-05,Science Block,140.84,Low,6,11
+2023-11-05,Library,63.22,Low,6,11
+2023-11-06,Library,129.07,Medium,0,11
+2023-11-06,Science Block,251.55,Medium,0,11
+2023-11-06,Admin Block,160.34,Medium,0,11
+2023-11-06,Sports Complex,76.28,Medium,0,11
+2023-11-07,Sports Complex,141.02,High,1,11
+2023-11-07,Science Block,296.92,High,1,11
+2023-11-07,Canteen,189.8,High,1,11
+2023-11-09,Library,81.86,High,3,11
+2023-11-09,Sports Complex,121.69,High,3,11
+2023-11-09,Sports Complex,68.24,High,3,11
+2023-11-10,Canteen,117.59,Medium,4,11
+2023-11-10,Main Block,208.8,Medium,4,11
+2023-11-10,Admin Block,125.21,Medium,4,11
+2023-11-10,Main Block,170.06,Medium,4,11
+2023-11-10,Hostel Block,181.33,Medium,4,11
+2023-11-11,Sports Complex,76.55,Low,5,11
+2023-11-11,Science Block,166.12,Low,5,11
+2023-11-12,Admin Block,79.22,Low,6,11
+2023-11-12,Science Block,112.21,Low,6,11
+2023-11-12,Hostel Block,140.13,Low,6,11
+2023-11-13,Library,149.47,Medium,0,11
+2023-11-13,Admin Block,167.64,Medium,0,11
+2023-11-13,Library,102.54,Medium,0,11
+2023-11-13,Hostel Block,185.57,Medium,0,11
+2023-11-14,Main Block,231.64,High,1,11
+2023-11-14,Admin Block,200.94,High,1,11
+2023-11-15,Library,97.16,High,2,11
+2023-11-15,Hostel Block,124.76,High,2,11
+2023-11-16,Computer Lab,218.06,High,3,11
+2023-11-16,Canteen,234.53,High,3,11
+2023-11-17,Admin Block,162.7,Medium,4,11
+2023-11-17,Hostel Block,218.46,Medium,4,11
+2023-11-18,Main Block,104.36,Low,5,11
+2023-11-18,Sports Complex,34.56,Low,5,11
+2023-11-18,Hostel Block,91.84,Low,5,11
+2023-11-18,Canteen,71.65,Low,5,11
+2023-11-18,Canteen,54.28,Low,5,11
+2023-11-18,Science Block,99.53,Low,5,11
+2023-11-19,Sports Complex,61.69,Low,6,11
+2023-11-19,Science Block,140.86,Low,6,11
+2023-11-19,Science Block,174.12,Low,6,11
+2023-11-19,Main Block,84.66,Low,6,11
+2023-11-21,Computer Lab,308.32,High,1,11
+2023-11-21,Canteen,149.71,High,1,11
+2023-11-21,Main Block,165.5,High,1,11
+2023-11-23,Canteen,146.95,High,3,11
+2023-11-24,Science Block,230.56,Medium,4,11
+2023-11-24,Computer Lab,181.7,Medium,4,11
+2023-11-24,Admin Block,136.35,Medium,4,11
+2023-11-24,Canteen,162.58,Medium,4,11
+2023-11-24,Sports Complex,108.64,Medium,4,11
+2023-11-25,Main Block,86.26,Low,5,11
+2023-11-25,Hostel Block,114.76,Low,5,11
+2023-11-25,Admin Block,85.02,Low,5,11
+2023-11-26,Hostel Block,66.71,Low,6,11
+2023-11-27,Canteen,110.16,Medium,0,11
+2023-11-27,Sports Complex,128.0,Medium,0,11
+2023-11-27,Canteen,164.97,Medium,0,11
+2023-11-27,Library,87.14,Medium,0,11
+2023-11-27,Sports Complex,53.99,Medium,0,11
+2023-11-28,Computer Lab,334.93,High,1,11
+2023-11-28,Canteen,137.89,High,1,11
+2023-11-28,Science Block,243.73,High,1,11
+2023-11-28,Canteen,153.24,High,1,11
+2023-11-28,Library,127.56,High,1,11
+2023-11-29,Sports Complex,76.33,High,2,11
+2023-11-29,Canteen,210.42,High,2,11
+2023-11-29,Library,84.49,High,2,11
+2023-11-30,Admin Block,181.64,High,3,11
+2023-11-30,Science Block,227.41,High,3,11
+2023-11-30,Library,109.3,High,3,11
+2023-12-01,Hostel Block,154.15,Medium,4,12
+2023-12-01,Main Block,212.73,Medium,4,12
+2023-12-01,Science Block,219.68,Medium,4,12
+2023-12-02,Library,52.22,Low,5,12
+2023-12-02,Computer Lab,125.28,Low,5,12
+2023-12-02,Canteen,86.05,Low,5,12
+2023-12-02,Admin Block,94.35,Low,5,12
+2023-12-03,Admin Block,70.9,Low,6,12
+2023-12-03,Sports Complex,65.63,Low,6,12
+2023-12-03,Library,30.0,Low,6,12
+2023-12-03,Library,65.32,Low,6,12
+2023-12-03,Computer Lab,181.05,Low,6,12
+2023-12-04,Admin Block,107.88,Medium,0,12
+2023-12-04,Sports Complex,73.13,Medium,0,12
+2023-12-04,Admin Block,136.85,Medium,0,12
+2023-12-04,Library,116.58,Medium,0,12
+2023-12-05,Library,147.92,High,1,12
+2023-12-05,Sports Complex,113.39,High,1,12
+2023-12-06,Library,121.13,High,2,12
+2023-12-06,Canteen,112.33,High,2,12
+2023-12-06,Computer Lab,339.12,High,2,12
+2023-12-07,Sports Complex,140.57,High,3,12
+2023-12-07,Admin Block,121.0,High,3,12
+2023-12-07,Science Block,288.39,High,3,12
+2023-12-08,Hostel Block,202.96,Medium,4,12
+2023-12-09,Computer Lab,125.14,Low,5,12
+2023-12-09,Canteen,89.11,Low,5,12
+2023-12-09,Science Block,140.4,Low,5,12
+2023-12-10,Computer Lab,150.27,Low,6,12
+2023-12-10,Hostel Block,113.34,Low,6,12
+2023-12-11,Admin Block,125.06,Medium,0,12
+2023-12-11,Canteen,108.98,Medium,0,12
+2023-12-11,Admin Block,158.21,Medium,0,12
+2023-12-11,Admin Block,166.76,Medium,0,12
+2023-12-12,Sports Complex,142.84,High,1,12
+2023-12-13,Sports Complex,127.53,High,2,12
+2023-12-13,Library,69.17,High,2,12
+2023-12-14,Library,179.1,High,3,12
+2023-12-14,Hostel Block,278.24,High,3,12
+2023-12-15,Science Block,153.67,Medium,4,12
+2023-12-15,Sports Complex,70.9,Medium,4,12
+2023-12-15,Admin Block,143.19,Medium,4,12
+2023-12-15,Computer Lab,235.99,Medium,4,12
+2023-12-15,Canteen,125.67,Medium,4,12
+2023-12-16,Library,54.38,Low,5,12
+2023-12-17,Sports Complex,30.0,Low,6,12
+2023-12-17,Admin Block,122.23,Low,6,12
+2023-12-18,Canteen,162.35,Medium,0,12
+2023-12-19,Main Block,220.19,High,1,12
+2023-12-20,Library,105.78,High,2,12
+2023-12-20,Main Block,255.72,High,2,12
+2023-12-20,Hostel Block,177.77,High,2,12
+2023-12-20,Library,88.42,High,2,12
+2023-12-21,Library,165.34,High,3,12
+2023-12-21,Science Block,204.05,High,3,12
+2023-12-21,Hostel Block,162.92,High,3,12
+2023-12-21,Sports Complex,96.44,High,3,12
+2023-12-22,Hostel Block,164.7,Medium,4,12
+2023-12-22,Admin Block,177.46,Medium,4,12
+2023-12-23,Science Block,162.11,Low,5,12
+2023-12-23,Canteen,111.88,Low,5,12
+2023-12-23,Hostel Block,76.94,Low,5,12
+2023-12-23,Science Block,99.28,Low,5,12
+2023-12-23,Hostel Block,96.75,Low,5,12
+2023-12-24,Sports Complex,65.23,Low,6,12
+2023-12-24,Canteen,107.73,Low,6,12
+2023-12-25,Computer Lab,179.89,Medium,0,12
+2023-12-25,Admin Block,73.78,Medium,0,12
+2023-12-26,Computer Lab,288.37,High,1,12
+2023-12-26,Admin Block,178.08,High,1,12
+2023-12-26,Computer Lab,343.81,High,1,12
+2023-12-26,Computer Lab,363.52,High,1,12
+2023-12-27,Computer Lab,331.13,High,2,12
+2023-12-27,Admin Block,136.71,High,2,12
+2023-12-27,Science Block,266.16,High,2,12
+2023-12-27,Computer Lab,205.5,High,2,12
+2023-12-27,Computer Lab,200.73,High,2,12
+2023-12-28,Science Block,187.24,High,3,12
+2023-12-28,Admin Block,217.85,High,3,12
+2023-12-29,Library,123.92,Medium,4,12
+2023-12-29,Computer Lab,239.42,Medium,4,12
+2023-12-29,Sports Complex,37.34,Medium,4,12
+2023-12-30,Science Block,106.66,Low,5,12
+2023-12-31,Sports Complex,75.13,Low,6,12

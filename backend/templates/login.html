@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEMS - Smart Energy Management System</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #0d1b2a 0%, #1b4332 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .login-container {
+            background: rgba(255,255,255,0.05);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 20px;
+            padding: 50px 45px;
+            width: 420px;
+            box-shadow: 0 25px 60px rgba(0,0,0,0.4);
+            animation: fadeIn 0.6s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .logo {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .logo-icon {
+            font-size: 52px;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .logo h1 {
+            color: #4ade80;
+            font-size: 26px;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+
+        .logo p {
+            color: #94a3b8;
+            font-size: 12px;
+            margin-top: 4px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            color: #94a3b8;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 14px 16px;
+            background: rgba(255,255,255,0.07);
+            border: 1px solid rgba(255,255,255,0.15);
+            border-radius: 10px;
+            color: #fff;
+            font-size: 15px;
+            transition: all 0.3s;
+            outline: none;
+        }
+
+        input:focus {
+            border-color: #4ade80;
+            background: rgba(74, 222, 128, 0.08);
+            box-shadow: 0 0 0 3px rgba(74,222,128,0.15);
+        }
+
+        input::placeholder { color: #475569; }
+
+        .role-selector {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .role-btn {
+            flex: 1;
+            padding: 12px;
+            border: 1px solid rgba(255,255,255,0.15);
+            border-radius: 10px;
+            background: rgba(255,255,255,0.05);
+            color: #94a3b8;
+            font-size: 13px;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-align: center;
+        }
+
+        .role-btn.active {
+            border-color: #4ade80;
+            background: rgba(74,222,128,0.15);
+            color: #4ade80;
+            font-weight: 600;
+        }
+
+        .role-btn span { display: block; font-size: 20px; margin-bottom: 4px; }
+
+        .login-btn {
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(135deg, #16a34a, #4ade80);
+            border: none;
+            border-radius: 10px;
+            color: #fff;
+            font-size: 16px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .login-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(74,222,128,0.35);
+        }
+
+        .demo-hint {
+            text-align: center;
+            margin-top: 20px;
+            color: #475569;
+            font-size: 12px;
+        }
+
+        .demo-hint strong { color: #4ade80; }
+
+        .error-msg {
+            color: #f87171;
+            font-size: 13px;
+            text-align: center;
+            margin-top: 12px;
+            display: none;
+        }
+
+        .institution {
+            text-align: center;
+            margin-top: 25px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255,255,255,0.08);
+            color: #334155;
+            font-size: 11px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="login-container">
+    <div class="logo">
+        <span class="logo-icon">⚡</span>
+        <h1>SEMS</h1>
+        <p>Smart Energy Management System</p>
+    </div>
+
+    <div class="role-selector">
+        <div class="role-btn active" id="adminBtn" onclick="selectRole('admin')">
+            <span>🛡️</span> Admin
+        </div>
+        <div class="role-btn" id="userBtn" onclick="selectRole('user')">
+            <span>👤</span> User
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label>Username</label>
+        <input type="text" id="username" placeholder="Enter your username" />
+    </div>
+
+    <div class="form-group">
+        <label>Password</label>
+        <input type="password" id="password" placeholder="Enter your password" />
+    </div>
+
+    <button class="login-btn" onclick="handleLogin()">Login →</button>
+
+    <p class="error-msg" id="errorMsg">❌ Invalid credentials. Try again.</p>
+
+    <div class="demo-hint">
+        Demo: <strong>admin / admin123</strong> or <strong>user / user123</strong>
+    </div>
+
+    <div class="institution">
+        KJEI's Trinity Academy of Engineering, Pune<br>
+        MCA Department · 2025–2026
+    </div>
+</div>
+
+<script>
+    let selectedRole = "admin";
+
+    function selectRole(role) {
+        selectedRole = role;
+        document.getElementById("adminBtn").classList.toggle("active", role === "admin");
+        document.getElementById("userBtn").classList.toggle("active",  role === "user");
+    }
+
+    function handleLogin() {
+        const username = document.getElementById("username").value.trim();
+        const password = document.getElementById("password").value.trim();
+        const errorMsg = document.getElementById("errorMsg");
+
+        // Simple credential check (in real app, this would be server-side)
+        const validCredentials = {
+            admin: { username: "admin", password: "admin123" },
+            user:  { username: "user",  password: "user123" }
+        };
+
+        const creds = validCredentials[selectedRole];
+
+        if (username === creds.username && password === creds.password) {
+            // Save role to sessionStorage so dashboard knows who logged in
+            sessionStorage.setItem("role", selectedRole);
+            sessionStorage.setItem("username", username);
+            errorMsg.style.display = "none";
+            window.location.href = "/dashboard";
+        } else {
+            errorMsg.style.display = "block";
+            // Shake animation on error
+            document.querySelector(".login-container").style.animation = "none";
+        }
+    }
+
+    // Allow pressing Enter to login
+    document.addEventListener("keydown", (e) => {
+        if (e.key === "Enter") handleLogin();
+    });
+</script>
+
+</body>
+</html>
